@@ -7,7 +7,7 @@ attr_accessor :knowledge
 
   def learn(str)
     Teacher.KNOWLEDGE = str
-    @knowledge << str 
+    @knowledge << str
   end
 
   def knowledge
