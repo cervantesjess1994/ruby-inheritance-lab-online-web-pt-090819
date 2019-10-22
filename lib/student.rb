@@ -6,8 +6,8 @@ attr_accessor :knowledge
   end
 
   def learn(str)
-    knowledge.sample = str
-    @knowledge << str
+    knowledge.sample = "str"
+    @knowledge << "str"
   end
 
   def knowledge
