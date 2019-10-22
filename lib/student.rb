@@ -6,7 +6,7 @@ attr_accessor :knowledge
   end
 
   def learn(str)
-    Teacher.teach = str 
+    Teacher.teach = str
     @knowledge << str 
   end
 
