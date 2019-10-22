@@ -10,7 +10,7 @@ attr_accessor :knowledge
   end
 
   def knowledge
-    self.knowledge
+    @knowledge
   end
 
 end
